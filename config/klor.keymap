@@ -259,77 +259,35 @@
     combos {
         compatible = "zmk,combos";
 
-        Esc_one_handed {
+        esc_one_handed {
             bindings = <&kp ESC>;
             key-positions = <0 1>;
             require-prior-idle-ms = <150>;
         };
 
-        semicolon {
-            bindings = <&kp SEMICOLON>;
-            key-positions = <15 16>;
-        };
-
-        at_sign {
-            bindings = <&kp AT_SIGN>;
-            key-positions = <2 14>;
-            require-prior-idle-ms = <150>;
-        };
-
-        enter_one_handed {
-            bindings = <&kp ENTER>;
-            key-positions = <25 26>;
-            require-prior-idle-ms = <150>;
-        };
-
-        to_engram {
+        to_qwerty {
             bindings = <&to 0>;
-            key-positions = <3 38>;
+            key-positions = <37 5>;
         };
 
-        to_num {
-            bindings = <&to 0>;
-            key-positions = <2 38>;
+        to_adjust {
+            bindings = <&to 1>;
+            key-positions = <37 6>;
         };
 
         to_nav {
-            bindings = <&to 0>;
-            key-positions = <1 38>;
+            bindings = <&to 2>;
+            key-positions = <37 7>;
         };
 
-        to_QWERTY {
-            bindings = <&to 0>;
-            key-positions = <0 38>;
+        to_rgb {
+            bindings = <&to 3>;
+            key-positions = <37 8>;
         };
 
-        command_Q {
-            bindings = <&kp LG(Q)>;
-            key-positions = <38 27>;
-        };
-
-        command_W {
-            bindings = <&kp LG(W)>;
-            key-positions = <26 38>;
-        };
-
-        command_T {
-            bindings = <&kp LG(T)>;
-            key-positions = <38 25>;
-        };
-
-        command_N {
-            bindings = <&kp LG(N)>;
-            key-positions = <38 24>;
-        };
-
-        command_R {
-            bindings = <&kp LG(R)>;
-            key-positions = <38 23>;
-        };
-
-        RGB {
-            bindings = <&to 0>;
-            key-positions = <36 37>;
+        change_keyboard {
+            bindings = <&kp LC(LA(PT_K))>;
+            key-positions = <36 37 38>;
         };
     };
 
