@@ -363,10 +363,10 @@
 
         NAV {
             bindings = <
-        &trans  &trans  &kp INS     &kp HOME  &kp PG_UP                  &trans  &trans          &kp UP    &trans     &trans
-&trans  &trans  &trans  &kp DELETE  &kp END   &kp PG_DN                  &trans  &kp LEFT_ARROW  &kp DOWN  &kp RIGHT  &trans  &trans
-&trans  &trans  &trans  &trans      &trans    &trans     &trans  &trans  &trans  &trans          &trans    &trans     &trans  &trans
-                        &trans      &trans    &trans     &trans  &trans  &trans  &trans          &trans
+        &trans  &trans  &kp INS         &kp HOME      &kp PG_UP                          &trans     &trans          &kp UP           &trans     &trans
+&trans  &trans  &trans  &kp DELETE      &kp END       &kp PG_DN                          &trans     &kp LEFT_ARROW  &kp DOWN         &kp RIGHT  &trans  &trans
+&trans  &trans  &trans  &trans          &trans        &trans     &trans   &trans         &trans     &trans          &trans           &trans     &trans  &trans
+                        &kp LEFT_SHIFT  &kp LEFT_GUI  &kp LCTRL  &kp RET  &kp BACKSPACE  &kp RCTRL  &kp SPACE       &kp RIGHT_SHIFT
             >;
 
             label = "NAV";
