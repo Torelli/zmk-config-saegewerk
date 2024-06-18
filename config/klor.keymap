@@ -289,6 +289,12 @@
             bindings = <&kp LC(LA(PT_K))>;
             key-positions = <36 37 38>;
         };
+
+        tab_one_hand {
+            bindings = <&kp TAB>;
+            key-positions = <10 11>;
+            require-prior-idle-ms = <150>;
+        };
     };
 
     keymap {
