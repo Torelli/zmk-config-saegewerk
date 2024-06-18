@@ -292,7 +292,7 @@
 
         tab_one_hand {
             bindings = <&kp TAB>;
-            key-positions = <10 11>;
+            key-positions = <11 12>;
             require-prior-idle-ms = <150>;
         };
     };
