@@ -298,12 +298,12 @@
 
         curly_braces {
             bindings = <&kp LBRC>;
-            key-positions = <16 39>;
+            key-positions = <16 36>;
         };
 
         parenthesis {
             bindings = <&kp LPAR>;
-            key-positions = <17 39>;
+            key-positions = <17 36>;
         };
     };
 
