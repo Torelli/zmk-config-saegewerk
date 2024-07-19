@@ -323,8 +323,8 @@
         QWERTY {
             bindings = <
         &hm N1 Q  &hm N2 W  &hm N3 E   &hm N4 R       &hm N5 T                                    &hm N6 Y    &hm N7 U    &hm N8 I        &hm N9 O     &hm N0 P
-&trans  &kp A     &kp S     &kp D      &kp F          &kp G                                       &hm LEFT H  &hm DOWN J  &hm UP PT_K     &hm RIGHT L  &kp SEMI  &trans
-&trans  &kp Z     &kp X     &kp C      &kp V          &kp B      &kp C_PLAY_PAUSE  &kp C_MUTE     &kp N       &kp M       &kp COMMA       &kp DOT      &kp FSLH  &trans
+&trans  &kp A     &kp S     &kp D      &kp F          &kp G                                       &hm LEFT H  &hm DOWN J  &hm UP PT_K     &hm RIGHT L  &kp SEMI       &trans
+&trans  &kp Z     &kp X     &kp C      &kp V          &kp B      &kp C_PLAY_PAUSE  &kp C_MUTE     &kp N       &kp M       &kp COMMA       &kp DOT      &hm BSLH FSLH  &trans
                             &kp LSHFT  &kp LEFT_META  &kp LCTRL  &kp RET           &kp BACKSPACE  &kp RCTRL   &kp SPACE   &kp LEFT_SHIFT
             >;
 
@@ -336,7 +336,7 @@
             bindings = <
         &hm F1 N1  &hm F2 N2  &hm F3 N3       &hm F4 NUMBER_4  &hm F5 NUMBER_5                          &hm F6 N6  &hm F7 N7  &hm F8 N8        &hm F9 N9  &hm F10 N0
 &trans  &kp EQUAL  &kp MINUS  &kp PLUS        &kp LBRC         &kp LBKT                                 &kp RBKT   &kp RBRC   &kp SEMI         &kp COLON  &kp FSLH    &trans
-&trans  &kp APOS   &kp GRAVE  &kp NUBS        &trans           &trans           &trans   &trans         &trans     &trans     &trans           &kp F11    &kp F12     &trans
+&trans  &kp APOS   &kp GRAVE  &kp BSLH        &trans           &trans           &trans   &trans         &trans     &trans     &trans           &kp F11    &kp F12     &trans
                               &kp LEFT_SHIFT  &kp LEFT_GUI     &kp RCTRL        &kp RET  &kp BACKSPACE  &kp RCTRL  &kp SPACE  &kp RIGHT_SHIFT
             >;
 
