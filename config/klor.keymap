@@ -334,10 +334,10 @@
 
         ADJUST {
             bindings = <
-        &hm F1 N1  &hm F2 N2  &hm F3 N3       &hm F4 NUMBER_4  &hm F5 NUMBER_5                          &hm F6 N6  &hm F7 N7  &hm F8 N8        &hm F9 N9  &hm F10 N0
-&trans  &kp EQUAL  &kp MINUS  &kp PLUS        &kp LBRC         &kp LBKT                                 &kp RBKT   &kp RBRC   &kp SEMI         &kp COLON  &kp FSLH    &trans
-&trans  &kp APOS   &kp GRAVE  &kp BSLH        &trans           &trans           &trans   &trans         &trans     &trans     &trans           &kp F11    &kp F12     &trans
-                              &kp LEFT_SHIFT  &kp LEFT_GUI     &kp RCTRL        &kp RET  &kp BACKSPACE  &kp RCTRL  &kp SPACE  &kp RIGHT_SHIFT
+        &hm F1 N1  &hm F2 N2  &hm F3 N3       &hm F4 NUMBER_4  &hm F5 NUMBER_5                          &hm F6 N6     &hm F7 N7  &hm F8 N8        &hm F9 N9  &hm F10 N0
+&trans  &kp EQUAL  &kp MINUS  &kp PLUS        &kp LBRC         &kp LBKT                                 &kp RBKT      &kp RBRC   &kp SEMI         &kp COLON  &kp FSLH    &trans
+&trans  &kp APOS   &kp GRAVE  &kp BSLH        &trans           &trans           &trans   &trans         &trans        &trans     &trans           &kp F11    &kp F12     &trans
+                              &kp LEFT_SHIFT  &kp LEFT_GUI     &kp RCTRL        &kp RET  &kp BACKSPACE  &kp LEFT_ALT  &kp SPACE  &kp RIGHT_SHIFT
             >;
 
             label = "ADJUST";
@@ -345,10 +345,10 @@
 
         NAV {
             bindings = <
-        &trans  &trans  &kp INS         &kp HOME      &kp PG_UP                          &trans     &trans          &kp UP           &trans     &trans
-&trans  &trans  &trans  &kp DELETE      &kp END       &kp PG_DN                          &trans     &kp LEFT_ARROW  &kp DOWN         &kp RIGHT  &trans  &trans
-&trans  &trans  &trans  &trans          &trans        &trans     &trans   &trans         &trans     &trans          &trans           &trans     &trans  &trans
-                        &kp LEFT_SHIFT  &kp LEFT_GUI  &kp LCTRL  &kp RET  &kp BACKSPACE  &kp RCTRL  &kp SPACE       &kp RIGHT_SHIFT
+        &trans  &trans  &kp INS         &kp HOME      &kp PG_UP                          &trans        &trans          &kp UP           &trans     &trans
+&trans  &trans  &trans  &kp DELETE      &kp END       &kp PG_DN                          &trans        &kp LEFT_ARROW  &kp DOWN         &kp RIGHT  &trans  &trans
+&trans  &trans  &trans  &trans          &trans        &trans     &trans   &trans         &trans        &trans          &trans           &trans     &trans  &trans
+                        &kp LEFT_SHIFT  &kp LEFT_GUI  &kp LCTRL  &kp RET  &kp BACKSPACE  &kp LEFT_ALT  &kp SPACE       &kp RIGHT_SHIFT
             >;
 
             label = "NAV";
@@ -357,10 +357,10 @@
         RGB {
             label = "RGB";
             bindings = <
-        &rgb_ug RGB_EFF  &rgb_ug RGB_SPI  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_BRI                          &trans     &trans     &trans           &bt BT_PRV  &bt BT_NXT
-&trans  &rgb_ug RGB_EFR  &rgb_ug RGB_SPD  &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_BRD                          &trans     &trans     &trans           &trans      &trans      &trans
-&trans  &rgb_ug RGB_TOG  &trans           &trans           &bt BT_CLR       &bt BT_CLR_ALL   &trans   &trans         &trans     &trans     &trans           &trans      &trans      &trans
-                                          &kp LEFT_SHIFT   &kp LEFT_GUI     &kp LCTRL        &kp RET  &kp BACKSPACE  &kp RCTRL  &kp SPACE  &kp RIGHT_SHIFT
+        &rgb_ug RGB_EFF  &rgb_ug RGB_SPI  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_BRI                          &trans        &trans     &trans           &bt BT_PRV  &bt BT_NXT
+&trans  &rgb_ug RGB_EFR  &rgb_ug RGB_SPD  &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_BRD                          &trans        &trans     &trans           &trans      &trans      &trans
+&trans  &rgb_ug RGB_TOG  &trans           &trans           &bt BT_CLR       &bt BT_CLR_ALL   &trans   &trans         &trans        &trans     &trans           &trans      &trans      &trans
+                                          &kp LEFT_SHIFT   &kp LEFT_GUI     &kp LCTRL        &kp RET  &kp BACKSPACE  &kp LEFT_ALT  &kp SPACE  &kp RIGHT_SHIFT
             >;
         };
     };
