@@ -348,6 +348,8 @@
 &trans  &kp Z  &kp X  &kp C      &kp V             &kp B      &trans   &trans         &kp N      &kp M   &kp COMMA  &kp DOT  &kp FSLH  &trans
                       &kp LSHFT  &kp LEFT_CONTROL  &kp SPACE  &kp TAB  &kp BACKSPACE  &kp ENTER  &trans  &trans
             >;
+
+            label = "GAME";
         };
 
         ADJUST {
