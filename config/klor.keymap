@@ -270,6 +270,11 @@
             key-positions = <37 5>;
         };
 
+        to_game {
+            bindings = <&to 1>;
+            key-positions = <37 6>;
+        };
+
         to_adjust {
             bindings = <&to 2>;
             key-positions = <37 7>;
@@ -315,10 +320,6 @@
             layers = <0>;
         };
 
-        to_game {
-            bindings = <&to 1>;
-            key-positions = <37 6>;
-        };
     };
 
     keymap {
