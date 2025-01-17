@@ -271,18 +271,18 @@
         };
 
         to_adjust {
-            bindings = <&to 1>;
-            key-positions = <37 6>;
-        };
-
-        to_nav {
             bindings = <&to 2>;
             key-positions = <37 7>;
         };
 
-        to_rgb {
+        to_nav {
             bindings = <&to 3>;
             key-positions = <37 8>;
+        };
+
+        to_rgb {
+            bindings = <&to 4>;
+            key-positions = <37 9>;
         };
 
         change_keyboard {
@@ -294,21 +294,30 @@
             bindings = <&kp TAB>;
             key-positions = <11 12>;
             require-prior-idle-ms = <150>;
+            layers = <0>;
         };
 
         curly_braces {
             bindings = <&kp LBRC>;
             key-positions = <16 36>;
+            layers = <0>;
         };
 
         parenthesis {
             bindings = <&kp LPAR>;
             key-positions = <17 36>;
+            layers = <0>;
         };
 
         brackets {
             bindings = <&kp LBKT>;
             key-positions = <36 18>;
+            layers = <0>;
+        };
+
+        to_game {
+            bindings = <&to 1>;
+            key-positions = <37 6>;
         };
     };
 
@@ -330,6 +339,15 @@
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_NEXT C_PREV>;
             label = "QWERTY";
+        };
+
+        GAME {
+            bindings = <
+        &kp Q  &kp W  &kp E      &kp R             &kp T                              &kp Y      &kp U   &kp I      &kp O    &kp P
+&trans  &kp A  &kp S  &kp D      &kp F             &kp G                              &kp H      &kp J   &kp K      &kp L    &kp SEMI  &trans
+&trans  &kp Z  &kp X  &kp C      &kp V             &kp B      &trans   &trans         &kp N      &kp M   &kp COMMA  &kp DOT  &kp FSLH  &trans
+                      &kp LSHFT  &kp LEFT_CONTROL  &kp SPACE  &kp TAB  &kp BACKSPACE  &kp ENTER  &trans  &trans
+            >;
         };
 
         ADJUST {
